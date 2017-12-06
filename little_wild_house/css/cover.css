@@ -1,0 +1,1482 @@
+/*/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: white;
+  text-shadow: none; /* Prevent inheritance from `body` */
+ 
+  }
+
+
+/*
+ * Base structure
+ */
+
+/*********************** DESKTOP VERSION ****************************/
+
+  
+@media (min-width: 1025px){
+html,
+body {
+  
+  
+  height: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+font-weight: lighter;
+  font: "lato";
+
+}
+
+ .mastead-clearfix, .container-fluid, .navbar-brand, .navbar-nav, .navbar-header, ul, li, a{
+font: "lato";
+letter-spacing: 2px;
+font-weight: lighter;
+color: black;
+
+
+/* color:inherit; */
+
+ }
+
+ 
+
+
+ .navbar-brand{
+  font-weight: bold;
+  margin-left: 70px;
+ }
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.masthead-clearfix, .inner, .nav masthead-nav, .container-fluid, .navbar-header{
+  color:black;
+}
+
+.hero-section{
+  height:100%;
+}
+
+.nav-space{
+  display:none;
+}
+
+/****** HERO ******/
+img{
+  background-image: url(img/hero.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: ;
+
+}
+
+#services-link  {
+  margin-left: 580px;
+}
+ .hero-mobile-image, .hero-tablet-image, .hero-image-tablet, #office-image-mobile, #insomniac-image-mobile, #wheezy-image-mobile, #home-image-mobile, #tabletop-image-mobile, #about-image-mobile, #findus-image-mobile{
+  display:none;
+}
+
+.hero-section h1 { 
+   position: absolute; 
+   top: 220px; 
+   left: 0; 
+   width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+padding-top:11%;
+   letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 40px;
+   padding-left:3%;
+
+ }
+
+/****** SERVICES ******/
+ .services{
+
+  display:flex;
+ }
+
+#services {
+  font-family: "lato";
+  text-align: center;
+ justify-content:center;
+padding-top:40px;
+}
+
+#services h2, #about h2, #findus h2, #findus-header{
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+
+ .office{
+padding-top: 40px;
+  display:flex;
+padding-left: 40px;
+
+    
+ }
+.office{
+  padding-bottom: 5%;
+}
+#office-image{
+max-width: 35%;
+margin-left: 55px;
+float:left;}
+
+.office p{
+font-size: 18px;
+font-family: "minion";
+padding-left: 150px;
+padding-right: 150px;
+padding-top: 165px;
+text-align: left;
+float:right;
+}
+
+.office-text{
+  justify-content: flex-end;
+  align-items: center;
+font: "minion";
+float:right;
+
+}
+
+.insomniac{
+ display:flex;
+padding-left: 40px;
+padding-bottom: 70px;
+}
+
+.insomniac p{
+  font-size: 18px;
+font-family: "minion";
+padding-left: 70px;
+padding-right: 180px;
+padding-top: 120px;
+text-align: right;
+justify-content: flex-end;
+float:left;}
+
+
+#insomniac-image{
+  max-width: 35%;
+margin-right: 180px;
+justify-content: flex-start;
+float:right;
+}
+
+.insomniac-text{
+  justify-content: flex-end;
+  align-items: right;
+font: "minion";
+float:left;
+}
+
+.wheezy{
+  display:flex;
+padding-left: 40px;
+padding-bottom: 80px;
+}
+
+.wheezy p{
+font-size: 18px;
+font-family: "minion";
+padding-left:170px;
+padding-right:160px;
+text-align: left;
+justify-content: flex-end;
+float:right;
+padding-top:140px;
+}
+
+#wheezy-image{
+max-width: 35%;
+justify-content: flex-start;
+float:right;
+margin-left: 60px;
+}
+
+.wheezy-text{
+justify-content: flex-end;
+  font: "minion";
+float:right;
+}
+
+.tabletop{
+  display:flex;
+padding-left: 40px;
+padding-bottom: 40px;
+}
+
+.tabletop p{
+ font-size: 18px;
+font-family: "minion";
+text-align: right;
+justify-content: flex-end;
+padding-top:155px; 
+padding-right: 160px;
+margin-left:50px;
+
+}
+
+#tabletop-image{
+  max-width: 35%;
+justify-content: flex-start;
+float:right;
+margin-right: 180px;
+}
+
+.tabletop-text{
+  justify-content: flex-end;
+  font: "minion";
+float:right;
+}
+
+.home{
+  display:flex;
+padding-left: 45px;
+padding-bottom: 60px;
+}
+
+.home p{
+ font-size: 18px;
+font-family: "minion";
+text-align: left;
+justify-content: flex-end;
+margin-right:160px; 
+margin-left:160px;
+margin-top:180px;
+
+}
+
+#home-image{
+  max-width: 35%;
+justify-content: flex-start;
+margin-left:50px;
+margin-top:20px;
+}
+
+.home-text{
+  justify-content: flex-end;
+  font: "minion";
+float:right;
+font-size: 18px;
+font-family: "minion";
+text-align: right;
+padding-right:50px;
+padding-top: 25px;
+}
+
+
+#home-image{
+  max-width: 35%;
+  margin-top: 40px;
+}
+
+
+
+/****** ABOUT ******/
+.about{
+  display:flex;
+padding-left: 40px;
+padding-bottom: 100px;
+}
+
+#about-header {
+  font-family: "lato";
+  text-align: center;
+ justify-content:center;
+padding-top:40px;
+padding-bottom: 130px;}
+
+.about p{
+  font-family: "minion";
+font-size:18px;
+}
+
+
+
+#about-image{
+  justify-content: flex-start;
+  max-width: 35%;
+float:left;
+margin-right: 170px;
+}
+
+#about-text{
+  font-family: "minion";
+float:left;
+justify-content: flex-end;
+margin-right: 150px;
+text-align: right;
+padding-top: 35px;
+padding-left:55px;
+font-size:18px;
+}
+
+/****** FIND US ******/
+
+#findus{
+  position:relative;
+}
+
+#findus-header{
+  font-family: "lato";
+  text-align: center;
+ justify-content:center;
+padding-top:40px;
+font-weight: lighter;
+padding-bottom: 20px;
+}
+
+#findus-image{
+  padding-top: 100px;
+ max-height: auto;
+  max-width: 100%;
+ 
+
+}
+
+#findus-text{
+ margin-top: -275px;
+margin-left: 150px;
+text-align: center;
+font-family: "minion";
+font-size:24px;
+font-weight: bolder;
+}
+
+#footer{
+  margin-right: 40px;
+}
+#footer h4{
+bottom:0;
+padding-top: 250px;
+  font-size: 16px;
+  font-family: "lato";
+
+  width: 100%;
+  text-align: center;
+}
+
+h3{
+  display:none;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+  }
+/******************************************** TABLET VERSION *************************************/
+@media only screen 
+and (min-device-width : 767px) 
+and (max-device-width : 1024px)    {  
+
+.navbar-nav{
+  display:none;
+}
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+    z-index: 1;
+  left: 50px;
+margin-bottom: -10px;
+float:left;
+margin-top: -20px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: white;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+}
+
+#menu li
+{
+  padding: 10px 0;
+  color:black;
+  font-size: 28px;
+font:"minion";
+text-align: center;
+
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+.navbar-brand{
+margin-bottom:-10px;
+  font-weight: bolder;
+color:black;
+margin-left: 55%;
+font-variant: small-caps;
+font-size: 50px;
+margin-top: 10px;
+}
+#littlewild{
+  font-size: 30px;
+  padding-top:20px;
+}
+
+ img{
+  background-image: url(img/hero-mobile-image.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+
+
+
+.hero-section h1 { 
+   position: absolute; 
+   top: 210px; 
+   left: 0; 
+   width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+   padding-top: 260px;
+   letter-spacing: 5px;
+ font-weight: lighter;
+   font-size: 60px;
+   padding-left: 30px;
+ }
+
+
+
+
+#office-header{
+  position: absolute; 
+   top: 215px; 
+   left: 0; 
+   width: 100%;
+   font: "lato";
+   text-align: center;
+   color: white;
+   padding-top: 10%;
+   letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 40px;
+   padding-left: 40px;}
+
+
+
+#office-image, #insomniac-image, #wheezy-image, #tabletop-image, #home-image, #about-image, #findus-image, #hero-image, .hero-image-tablet{
+  display:none;
+}
+img{
+  background-image: url(img/office-image-mobile.jpg);
+    background-repeat: repeat;
+    background-position: center;
+   width: 100%;
+   opacity:1;
+   filter: alpha(opacity=50);
+   position:relative;
+  }
+
+  #office-text{
+    position: absolute; 
+   top: 410px; 
+    color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+line-height: 40px;
+   padding-top: 185%;
+   letter-spacing: 3px;
+   font-size: 24px;
+   padding-left: 70px;
+   padding-right: 70px;
+
+  }
+
+  #office-header{
+    padding-top: 170%;
+    padding-right: 20px;
+    color:black;
+  }
+
+  #services-header{
+    text-align: center;
+    font-family: "lato"
+    color:black;
+    padding-top: 40px;
+    font-size: 60px;
+  }
+
+    .insomniac h3{
+position: absolute;  
+   left: 0; 
+   width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   padding-left: 40px;
+   padding-top: 45%
+   font-weight: lighter;
+   font-size: 40px;
+   z-index:2;
+   }
+
+   #insomniac-header{
+    font: "lato";
+    font-weight: lighter;
+ font-size: 40px;
+ padding-top: 15%;
+ position:absolute;
+ z-index: 2
+   }
+
+   #insomniac-text{
+    position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+    padding-top: 52%;
+   
+  z-index:2;
+ 
+   padding-left: 70px;
+   line-height: 40px;
+   padding-right: 70px;
+   letter-spacing: 3px;
+   font-size: 24px;
+  }
+
+.insomniac img{
+  position:relative;
+  z-index: 1;
+}
+
+  .wheezy h3{
+ display:inline;
+ 
+  }
+
+#wheezy-header{
+position:absolute;
+  width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 40px;
+   padding-left: 40px;
+display:inline;
+margin-top: -1080px;
+}
+
+
+#wheezy-image-mobile{
+display:inline;
+position:relative;
+    }
+
+#wheezy-text{
+color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+   max-height: 1px;
+position: absolute;
+padding-left: 65px;
+padding-right: 65px;
+margin-top: -740px;
+line-height: 40px;
+letter-spacing: 3px;
+   font-size: 24px;
+  }
+
+   #services h2{
+    font-weight: lighter;
+}
+
+
+
+
+  #tabletop-header{
+position: absolute; 
+  width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 40px;
+   padding-left: 40px;
+   padding-top:20%;
+z-index:2;
+  }
+
+
+
+#tabletop-text{
+position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+    padding-top: 70%;
+   padding-left: 90px;
+   padding-right:70px;
+   line-height: 40px;
+ z-index:2;
+ letter-spacing: 3px;
+   font-size: 24px;
+  }
+
+  .tabletop p{
+    position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+  letter-spacing: 5px;
+ padding-left: 40px;
+ padding-right: 40px
+ z-index:2;
+  }
+
+.tabletop img{
+  opacity:1;
+  position:relative;
+  z-index:1;
+}
+
+   .home h3{
+    font-weight: lighter;
+    font-size: 40px;
+  }
+
+  #home-header{
+position: absolute; 
+  width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 40px;
+   padding-left: 40px;
+ 
+ margin-top: -1000px;
+ }
+
+.home img, #home-image-mobile{
+  position: relative;
+}
+
+
+
+#home-text{
+position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+margin-top: -720px;
+   
+   padding-left: 72px;
+   padding-right:72px;
+   line-height: 40px;
+   letter-spacing: 3px;
+   font-size: 24px;
+  }
+
+  .home p{
+    position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+
+ 
+
+  }
+
+
+  #about-header{
+    font-size: 60px;
+    font-weight: lighter;
+ text-align: center;
+margin-top: -253px;
+  margin-left:300px;
+  }
+
+#about h2{
+  font-size: 60px;
+  text-align: center;
+}
+
+
+#about img{
+position: relative;
+z-index: 1;
+padding-top: 200px;
+}
+
+#about-text{
+ line-height: 40px;
+  position:absolute;
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+  padding-top:515px;
+   
+padding-left: 65px;
+padding-right:65px;
+z-index: 2;
+letter-spacing: 3px;
+   font-size: 24px;
+}
+
+
+
+  #about-header{
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top:45%;
+  position:absolute;
+   text-align: center;
+  z-index: 2;
+  }
+
+
+  .hero-mobile-image{
+    opacity:1;}
+
+#findus h2{
+  text-align: center;
+font-weight: lighter;
+font-size: 60px;
+padding-top: 5%;
+}
+
+#findus-header{
+  text-align: center;
+}
+
+#findus-text{
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+   letter-spacing: 5px;
+   font-size: 30px;
+   line-height: 45px;
+  margin-top:-600px;
+
+ padding-left: 60px;
+ padding-right: 60px;
+ position: absolute;
+ z-index: 2;
+}
+
+#findus img{
+position: relative;
+z-index: 1;
+}
+
+ 
+
+#footer{
+  display:none;
+}
+
+}
+
+
+/*********************************** MOBILE VERSION ****************************/
+@media (max-width: 760px) {
+
+@media (max-width: 760px) {
+
+.navbar-nav{
+  display:none;
+}
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+    z-index: 1;
+  left: 50px;
+  float:left;
+margin-top: -35px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: white;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+}
+ .nav-space{
+  padding-top:20px;
+
+  position:absolute;
+   z-index: 10;
+ }
+#menu li
+{
+  padding: 10px 0;
+  font-size: 28px;
+  color:black;
+font:"minion";
+text-align: center;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+
+
+}
+.navbar-brand{
+  color:black;
+margin-left: 55%;
+font-size:30px;
+margin-bottom: 5px;
+margin-top: 15px;
+font-weight: bold;
+}
+
+#littlewild{
+  font-size: 30px;
+  padding-top:20px;
+}
+
+ img{
+  background-image: url(img/hero-mobile-image.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position:relative;
+  z-index: 1;
+   padding-top: 5%;
+}
+
+
+
+
+.hero-section h1 { 
+   position: absolute; 
+   top: 75px; 
+   left: 0; 
+   width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+   padding-top: 400px;
+   letter-spacing: 5px;
+   font-weight: lighter; ;
+   font-size: 60px;
+   padding-left: 40px;
+z-index: 2;
+ }
+
+ #services-header{
+  font-size: 60px;
+  z-index:3;
+}
+
+
+}
+#office-header{
+  position: absolute; 
+   top: 240px; 
+   left: 0; 
+   width: 100%;
+   font: "lato";
+   text-align: center;
+   color: white;
+   letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 50px;
+   padding-left: 40px;
+   z-index:3;}
+
+
+
+#office-image, #insomniac-image, #wheezy-image, #tabletop-image, #home-image, #about-image, #findus-image, #hero-image, .hero-image-tablet{
+  display:none;
+}
+img{
+  background-image: url(img/office-image-mobile.jpg);
+    background-repeat: repeat;
+    background-position: center;
+   width: 100%;
+  z-index: 1;
+   filter: alpha(opacity=50);
+   position:relative;
+  }
+
+
+
+  #office-text{
+    position: absolute; 
+   top: 270px; 
+    color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+padding-right:50px;
+   padding-top: 200%;
+   letter-spacing: 5px;
+   font-weight: ;
+   font-size: 28px;
+   padding-left: 50px;
+   z-index:3;
+
+  }
+
+  #office-header{
+    padding-top: 165%;
+    padding-right: 20px;
+    color:black;
+
+  }
+
+  #services-header{
+    text-align: center;
+    font-family: "lato"
+    color:black;
+    padding-top: 10px;
+  }
+
+    .insomniac h3{
+position: absolute;  
+   left: 0; 
+   width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   padding-left: 40px;
+ 
+   font-weight: lighter;
+   font-size: 50px;
+    z-index: 2;
+   }
+
+   #insomniac-header{
+    font: "lato";
+    font-weight: lighter;
+    padding-top: 15%;
+    position:absolute;
+    z-index:3;
+   }
+
+   #insomniac-text{
+    position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+    padding-top: 46%;
+   letter-spacing: 5px;
+   font-weight: ;
+   font-size: 28px;
+   padding-left: 60px;
+   padding-right:60px;
+   z-index:2;
+  }
+.wheezy h3{
+ display:inline;
+ margin-top: -1060px;
+ position:absolute;
+ z-index:2;
+  }
+
+#wheezy-header{
+position:absolute;
+  width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 50px;
+   padding-left: 40px;
+display:inline;
+z-index:2;
+}
+
+
+#wheezy-image-mobile{
+display:inline;
+position:relative;
+z-index:1;
+    }
+
+#wheezy-text{
+color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+   letter-spacing: 5px;
+   font-size: 28px;
+   padding-left: 60px;
+   padding-right:60px;
+   max-height: 1px;
+position: absolute;
+margin-top: -750px;
+z-index:2;
+  }
+
+   #services h2{
+    font-weight: lighter;
+}
+
+
+
+
+  #tabletop-header{
+position: absolute; 
+  width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 50px;
+   padding-left: 15px;
+   padding-top:18%;
+z-index: 2;
+  }
+
+
+
+#tabletop-text{
+position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+    padding-top: 68%;
+   letter-spacing: 5px;
+   font-size: 28px;
+   padding-left: 75px;
+   padding-right:55px;
+ z-index: 2;
+  }
+
+  .tabletop p{
+    position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+  z-index: 2;
+   letter-spacing: 5px;
+   font-size: 28px;
+   padding-left: 10px;
+ 
+  }
+  .tabletop img{
+    opacity: 1;
+    position:relative;
+    z-index: 1;
+
+  }
+
+
+   .home h3{
+    font-weight: lighter;
+    font-size: 50px;
+  
+    position:absolute;
+    z-index:2;
+  }
+
+
+  #home-header{
+position: absolute; 
+  width: 100%;
+   font: "lato";
+   text-align: center;
+   color: black;
+  letter-spacing: 5px;
+   font-weight: lighter;
+   font-size: 50px;
+   padding-left: 40px;
+   margin-bottom: 75%;
+ margin-top: -970px;
+ z-index:2;
+ }
+
+.home img, #home-image-mobile{
+  position: relative;
+  z-index:1;
+
+}
+
+
+
+#home-text{
+position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+margin-top: -745px;
+   letter-spacing: 5px;
+   font-size: 28px;
+   padding-left: 70px;
+   padding-right: 60px;
+   z-index:2;
+  }
+
+  .home p{
+    position: absolute; 
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+z-index: 2;
+   letter-spacing: 5px;
+   font-size: 28px;
+   padding-left: 10px;
+  }
+
+  #about-header{
+    font-size: 60px;
+    font-weight: lighter;
+ text-align: center;
+}
+
+#about h2{
+  text-align: center;
+padding-top:10%;
+
+}
+
+#about-text{
+ 
+  position:absolute;
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+  padding-top:40%;
+   letter-spacing: 5px;
+   font-size: 28px;
+   z-index: 2;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+#about-header{
+    font-size: 60px;
+    font-weight: lighter;
+    padding-top:45%;
+  margin-top:-20px;
+   text-align: center;
+  padding-bottom: 25px;
+ 
+
+  }
+
+  #findus h2{
+  text-align: center;
+font-weight: lighter;
+font-size: 60px;
+padding-top: 40px;
+padding-bottom: 25px;
+}
+
+#findus-header{
+  text-align: center;
+}
+
+#findus-text{
+  color:black;
+   width: 100%;
+   font: "minion";
+   text-align: center;
+   letter-spacing: 10px;
+   font-size: 28px;
+  margin-top:-580px;
+padding-left: 50px;
+padding-right: 50px;
+ position:absolute;
+ z-index: 2;
+
+}
+
+#findus-image-mobile{
+  position:relative;
+  z-index:1;
+}
+
+#footer{
+  display:none;
+}
+
+  }
